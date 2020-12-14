@@ -1,9 +1,9 @@
 from . import Expense
 import collections
-import matplotlib as mpl
+# import matplotlib as mpl
 import matplotlib.pyplot as plt
 
-mpl.use('TkAgg')  # or whatever other backend that you want
+# mpl.use('TkAgg')  # or whatever other backend that you want
 
 expenses = Expense.Expenses()
 
